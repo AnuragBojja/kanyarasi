@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ('django-insecure-$%)x!c0vo)umd^%i9vf+829i1ha2p=bed6h(npedv-ta9=f3(7')
+SECRET_KEY = 'django-insecure-$%)x!c0vo)umd^%i9vf+829i1ha2p=bed6h(npedv-ta9=f3(7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': ('cs790app'),
-        'USER': ('kanyarasi'),
-        'PASSWORD': ('Anurag23'),
-        'HOST': ('kanyarasi.mysql.database.azure.com'),
-        'PORT': ('3306'),
+        'NAME': 'cs790app',
+        'USER': 'kanyarasi',
+        'PASSWORD': 'Anurag23',
+        'HOST': 'kanyarasi.mysql.database.azure.com',
+        'PORT': '3306',
     }
 }
 
